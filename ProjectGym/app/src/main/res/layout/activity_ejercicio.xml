@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:onClick="mostrar_Descripcion"
+    android:clickable="true"
+    android:layout_weight="1"
+    android:background="#FFA44D">
+
+    <fragment
+        android:id="@+id/camera_fragment"
+        android:name="com.proyecto.antonio.projectdesign.peepers.StreamCameraFragment"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_gravity="bottom" />
+
+
+    <fragment
+        android:name="com.proyecto.antonio.projectdesign.library.YouTubeFragment"
+        android:id="@+id/fragment_youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</FrameLayout>

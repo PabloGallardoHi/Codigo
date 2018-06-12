@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/ip"
+        android:title="IP del servidor"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/logout"
+        android:title="Cerrar sesión"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+</menu>

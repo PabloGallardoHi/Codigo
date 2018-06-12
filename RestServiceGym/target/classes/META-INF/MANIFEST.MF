@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: rest-service-monitor
+Implementation-Version: 0.1.0
+Built-By: PabloGallardo
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/rest-service-monitor
+Created-By: Maven Integration for Eclipse
+
